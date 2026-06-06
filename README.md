@@ -122,7 +122,7 @@ likeButton.addEventListener("click", handleLike)
 ```javascript
 const buttons = document.querySelectorAll('.calc-btn');
 
-let currentExpression = ''; // Текущее выражение
+let displayed = ''; // Текущее выражение
 
 // button в данном случае будет передаваться СОБЫТИЕ НАЖАТИЕ, где можно будет узнать кнопку по которой нажали через target и из которой можно будет доставать её значение
 function handleButton(button) {
